@@ -3,8 +3,9 @@ from aiogram.dispatcher import FSMContext
 from loguru import logger
 
 from database.database import get_user_data_from_db
-from keyboards.user_keyboards.user_keyboards import create_main_menu_keyboard, main_menu_ke, \
-    continue_keyboard
+from keyboards.user_keyboards.user_keyboards import continue_keyboard
+from keyboards.user_keyboards.user_keyboards import create_main_menu_keyboard
+from keyboards.user_keyboards.user_keyboards import main_menu_ke
 from system.dispatcher import bot, dp
 
 

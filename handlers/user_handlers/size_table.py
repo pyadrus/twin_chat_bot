@@ -4,7 +4,9 @@ from aiogram.dispatcher.filters.state import StatesGroup, State
 from loguru import logger
 
 from database.database import recording_data_email, get_user_data_from_db_email
-from keyboards.user_keyboards.user_keyboards import main_menu_size_table, keyboard_to_fill_email_size_table, next_time_main_menu_ke
+from keyboards.user_keyboards.user_keyboards import keyboard_to_fill_email_size_table
+from keyboards.user_keyboards.user_keyboards import main_menu_size_table
+from keyboards.user_keyboards.user_keyboards import next_time_main_menu_ke
 from system.dispatcher import bot, dp
 
 
